@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: sans-serif;
 }
 
 /*naming the grid areas and giving their background color*/
@@ -18,13 +19,12 @@ body #sliderh			{grid-area: slider;}
 body {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 220px);
 	grid-template-areas:
 		"intro       intro      profil     slider  slider"
 		"experience  education  blog       slider  slider"
 		"social      contact    portfolio  slider  slider";
 	width: 100%;
-	height: 100vh;
 }
 
 /*content of each element icon+text*/
@@ -34,7 +34,7 @@ body > div {
 }
 /*size of icons*/
 body > div img {
-	width: 30px;
+	width: 50px;
 	margin: auto auto 5px auto; /*5px to gather icon and text*/
 }
 body > div p {
@@ -44,32 +44,39 @@ body > div p {
 }
 
 /*intro part with two buttons*/
-body #introh * {
-	margin: auto 10px;
+body #introh {
+	padding: 40px 30px;
+	justify-content: space-between;
 }
 body #introh h1 {
 	color: white;
-	margin-left: 20px;
+	text-transform: UpperCase;
 }
 body #introh h2 {
 	font-weight: lighter;
 	font-size: 15px;
 	color: white;
-	margin-left: 20px;
 }
 body #introh #button {
 	display: flex;
 	flex-direction: row;
 }
+/*two buttons with icon+text*/
 body #introh button {
 	display: flex;
 	flex-direction: row;
 	background-color: transparent;
 	border: 2px solid white;
-	width: 100px;
-	color: white;
-	padding: 10px 20px 10px 10px;
+	padding: 5px 20px 10px 5px;
+	margin-right: 10px;
 }
+/*texts*/
+body #introh button {
+	color: white;
+	text-transform: UpperCase;
+	font-weight: bold;
+}
+/*icons*/
 body #introh img {
 	height: 10px;
 }
@@ -87,19 +94,71 @@ body #sliderh img {
 
 /*media querries*/
 
-@media screen and (maw-width: 1120px) {
+@media screen and (max-width: 1120px) {
 	body {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(5, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(6, 220px);
 		grid-template-areas:
-			"intro intro profil"
-			"slider slider slider"
-			"slider slider slider"
-			"slider slider slider"
-			"experience  education  blog"
-			"social      contact    portfolio";
-		width: 100%;
-		height: 100vh;
+			"intro      intro    profil   experience"
+			"education  slider   slider   slider"
+			"blog       slider   slider   slider"
+			"social     slider   slider   slider"
+			"contact    slider   slider   slider"
+			"portfolio  slider   slider   slider";
+	}
+}
+
+@media screen and (max-width: 930px) {
+	body {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(5, 220px);
+		grid-template-areas:
+			"intro      intro       portfolio"
+			"profil     experience  education"
+			"blog       slider      slider"
+			"social     slider      slider"
+			"contact    slider      slider";
+	}
+}
+
+@media screen and (max-width: 650px) {
+	body {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(8, 220px);
+		grid-template-areas:
+			"intro     intro"
+			"social    experience"
+			"blog      education"
+			"slider    slider"
+			"slider    slider"
+			"slider    slider"
+			"portfolio portfolio"
+			"profil    contact";
+	}
+}
+
+@media screen and (max-width: 400px) {
+	body {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(11, 220px);
+		grid-template-areas:
+			"intro"
+			"intro"
+			"social"
+			"experience"
+			"blog"
+			"education"
+			"slider"
+			"slider"
+			"portfolio"
+			"profil"
+			"contact";
+	}
+	body #introh #button {
+		flex-direction: column;
+		margin-right: auto;
+	}
+	body #introh button {
+		margin-top: 10px;
 	}
 }
