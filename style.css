@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: White;
+  text-decoration: none;
+}
+body{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+.global{
+  width: 70%;
+  height: 100%;
+}
+.containerglobal1{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 300px;
+}
+.icone11{
+  background-color: #ffa502;
+  width: 67%;
+  height: 100%;
+  overflow: auto;
+}
+.icone11 button{
+  background-color: #ffa502;
+  width: 140px;
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 3px solid White;
+  border-radius: 5px;
+}
+.icone11 button:hover{
+  background-color: #ff7f50;
+}
+.icone11 i{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.icone11 h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 45px;
+}
+.icone11 p{
+  margin-left: 30px;
+  font-size: 25px;
+}
+.icone22{
+  background-color: #ff6348;
+  width: 33.4%;
+  height: 100%;
+}
+
+.icone13{
+  background-color: #70a1ff;
+  width: 33.4%;
+  height: 100%;
+}
+.icone23{
+  background-color: #ff6b81;
+  width: 33.4%;
+  height: 100%;
+}
+.icone33{
+  background-color: #ff7f50;
+  width: 33.4%;
+  height: 100%;
+}
+.icone1{
+  background-color: #ff7f50;
+  width: 33.4%;
+  height: 100%;
+}
+.icone2{
+  background-color: #7bed9f;
+  width: 33.4%;
+  height: 100%;
+}
+.icone3{
+  background-color: #5352ed;
+  width: 33.4%;
+  height: 100%;
+}
+i{
+  margin-top: 70px;
+  font-size: 100px;
+}
+#iconeglobal i{
+  display: flex;
+  justify-content: center;
+}
+#iconeglobal h3{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#iconeglobal:hover{
+  background-color: gray;
+}
+.img{
+  width: 30%;
+  height: 900px;
+  background: url(img/brad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.img button{
+  font-size: 20px;
+  border: 1px solid White;
+  background-color: black;
+  border-radius: 100px;
+  height: 40px;
+  margin-top: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img button:hover{
+  font-size: 20px;
+  border: 1px solid White;
+  background-color: Gray;
+}
+@media only screen and (max-width: 1300px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .global{
+    width: 100%;
+    height: 100%;
+  }
+  .containerglobal1{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+  }
+  .img{
+    width: 100%;
+    height: 900px;
+    background: url(img/brad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  }
+}
