@@ -1,3 +1,9 @@
+Mes commentaires :
+- css pur presque responsive avec flexbox
+- js pour un slideshow automatique
+
+
+
 ## Evaluation Front
 Vous devez recréer un site statique, on vous demandera de le recréer. Ne vous inquiétez pas, mais l'objectif est de construire quelque chose qui respecte l'intégrité de la conception originale. il est nécessaire de créer ce qui reflètent le choix du "client" en matière de mise en page, d'espacement, de police, d'image et de couleur dans les moindres détails.
 
