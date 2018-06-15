@@ -1,0 +1,68 @@
+html body {
+  height: 100%;
+  color: white;
+}
+
+.container-main {
+  width : 70%;
+  height : 80vh;
+  margin-top: 10vh;
+
+}
+
+
+.container-left {
+  width: 60%;
+  padding: 0;
+}
+
+.container-right {
+  width: 40%;
+  background-color: blue;
+  padding: 0;
+}
+
+.row-inner {
+  height: 33%;
+}
+
+.box {
+  padding : 0;
+  margin : 0;
+  height: 100%;
+
+  /* height : calc(100%/3); */
+  /* width : calc(100%/3); */
+}
+
+.padding {
+  padding-top: 5%;
+  padding-left: 3%;
+}
+.vert {
+  background: #35BC7A;
+}
+
+.orange {
+  background: #FF9E00;
+}
+
+.bleu {
+background: #1E8BC4;
+}
+
+.rouge{
+  background: #F15A49;
+}
+
+.rose {
+  background: #F86925;
+}
+
+.text-center {
+  margin-top: 20%;
+}
+
+.img {
+  height: 100%;
+}
