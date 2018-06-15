@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+#container-left{
+    flex:2;
+    width: 75%;
+}
+
+.containerbox{
+    display: flex;
+}
+
+.item1{
+    display: block;
+    width: 40%;
+    height: 180px;
+    color:#353ebc;
+    background-color: #35bc7a;
+    text-align: left;
+}
+.divItem1{
+    display: flex;
+}
+/* button{
+    border: none;
+    width: 40px;
+    height: 30px;
+}
+
+.buttonSt{
+    margin-right: 20px;
+    margin-left: 15px;
+} */
+
+.item{
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.item2{
+    background-color: #ff9e00;   
+}
+
+.item3{
+    background-color: #1e8bc4;
+}
+
+.item4{
+    background-color: #f15a49;
+}
+.item5{
+    background-color: #35bc7a;
+}
+
+.item6{
+    background-color: #f86925;
+}
+
+i{
+    font-size: 20px;
+}
+
+.slider
+{
+    flex: 1;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+    
+/* p
+{
+    z-index: 10000;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    width: 20%;    
+} */
+
+.slider
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider figure div
+{
+    width: 100%;  
+    float: left;
+}
+
+.slider figure img
+{
+        width: 100%;
+        float: left; 
+}
+
+.slider figure
+{
+        position: relative;
+        widows: 500%;
+        margin: 0;
+        left: 0;
+        animation: 5s slidy infinite;
+}
+
+@keyframes slidy
+{
+    0%{
+        left: 0%;
+    }
+
+    10%{
+        left: 0%;
+    }
+    12%{
+        left: -100%;
+    }
+
+    22%{
+        left: -100%;
+    }
+
+    24%{
+        left: -200%;
+    }
+
+    34%{
+        left: -200%;
+    }
+
+    36%{
+        left: -300%;
+    }
+
+    46%{
+        left: -300%;
+    }
+
+    48%{
+        left: -400%;
+    }
+
+    58%{
+        left: -400%;
+    }
+
+    60%{
+        left: -300%;
+    }
+    
+    70%{
+        left: -300%;
+    }
+
+    72%{
+        left: -200%;
+    }
+
+    82%{
+        left: -200%;
+    }
+
+    84%{
+        left: -100%;
+    }
+
+    94%{
+        left: -100%;
+    }
+
+    96%{
+        left: 0%;
+    }
+}
+
+/* .container
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+    
+.item
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid royalblue;
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: aqua;
+}
+.item1
+{
+    grid-column-start: 1 3;
+}
+
+.containerSt
+{
+    display: flex;   
+} */
