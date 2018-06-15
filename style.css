@@ -1,0 +1,180 @@
+*{
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.brad{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+body{
+  background: #cfcfcf;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+}
+i{
+  margin-right: 5px;
+}
+button{
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #FFF;
+  background: #35bc7a;
+  border: 2px solid #FFF;
+}
+
+button:hover{
+  background: black;
+  border: 2px solid #35bc7a;
+}
+
+.pffff{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bouton{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.corps{
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 96vh;
+}
+
+.orga{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.gauche{
+  width: calc(100%/3*2);
+  height: 100%;
+}
+
+.droite{
+  width: calc(100%/3);
+  height: 100%;
+}
+
+.gligne1{
+  display: flex;
+  flex-direction: row;
+  height: calc(100%/3);
+}
+
+.gligne2{
+  display: flex;
+  flex-direction: row;
+  height: calc(100%/3);
+}
+
+.gligne3{
+  display: flex;
+  flex-direction: row;
+  height: calc(100%/3);
+}
+
+.l1A, .l1B, .l1C, .l2A, .l2B, .l2C, .l3A, .l3B, .l3C{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa-id-card, .fa-battery-three-quarters, .fa-book, .fa-pen-square, .fa-plus, .fa-telegram-plane, .fa-desktop{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.l1A{
+width: calc(100%/3*2);
+background: #35bc7a;
+
+}
+
+.l1B{
+width: calc(100%/3);
+background: #ff9e00;
+}
+
+.l2A{
+  background: #1e8bc4;
+  width: calc(100%/3);
+}
+
+.l2B{
+  width: calc(100%/3);
+  background: #f15a49;
+}
+
+.l2C{
+  width: calc(100%/3);
+  background: #35bc7a;
+}
+
+.l3A{
+  width: calc(100%/3);
+  background: #f86925;
+}
+
+.l3B{
+  background: #1e8bc4;
+  width: calc(100%/3);
+}
+
+.l3C{
+  width: calc(100%/3);
+  background: #f86925;
+}
+
+.text-prob p{
+  text-align: left;
+}
+
+.droite{
+background: url("Assets/meuf.jpeg");
+background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .gauche, .droite, .gligne1, .gligne2, .gligne3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .l1B, .l1C, .l2A, .l2B, .l2C, .l3A, .l3B, .l3C{
+      width: 100%;
+      height: 100%;
+    }
+    .l1A{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .gauche{
+      width: 100%;
+    }
+    
+    .droite{
+      display: none;
+    }
+}
