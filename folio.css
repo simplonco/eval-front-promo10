@@ -1,0 +1,237 @@
+html, body{
+  margin:0;
+  padding: 0;
+}
+
+h1, h3, a{
+  color: white;
+  font-family: sans-serif;
+}
+
+h3{
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.links a{
+  padding: 2% 3% 2% 3%;
+  border: 2px solid white;
+  margin: 0 1% 0 1%;
+}
+
+.links a:hover{
+  background-color: #505b4e;
+}
+
+#container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#left-side{
+  height: 100%;
+}
+#left-side{
+  height: 100%;
+}
+.big-col{
+  width: 100%;
+  height: 30.9vh;
+  padding: 0 0 0 3%;
+}
+
+.row{
+  height: 30.9vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col, .special-col{
+  height: 30.9vh;
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.red{
+  background: #d60000;
+}
+
+.red:hover{
+  background: #af0101;
+}
+
+.orange{
+  background: #ff7f00;
+}
+
+.orange:hover{
+  background: #e06e04;
+}
+
+.grey{
+  background: #6f7f6c;
+}
+
+.grey-solo:hover{
+  background: #637060;
+}
+
+.purple{
+  background: #471c8c;
+}
+
+.purple:hover{
+  background: #381670;
+}
+
+.blue{
+  background: #1d73c4;
+}
+
+.blue:hover{
+  background: #1a63a8;
+}
+
+.fa{
+  font-size: 50px;
+  margin-bottom:3%;
+}
+
+.fas{
+  margin-right: 1%;
+}
+
+#left-side{
+  height: 100%;
+}
+
+#slider-right{
+  width: 35%;
+  height: 600px;
+}
+
+.slide-img{
+  width: 100%;
+  height: 92.8vh;
+  background-image: url("img/portfolio-dude.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-img > .fas{
+  font-size: 40px;
+  color: grey;
+  cursor: pointer;
+  margin: 0 0.7% 0 0.7%;
+}
+
+.slide-img > .fas:hover{
+  color: #505b4e;
+}
+
+/* INSERT LAZY OUTDATED RESPONSIVE STUFF HERE */
+
+@media screen and (max-width: 900px){
+  html, body{
+    margin: 0;
+    padding: 0;
+  }
+
+  #container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .big-col{
+    width: 69vw;
+    height: 30vh;
+    padding: 0 0 0 1%;
+  }
+
+  .links a{
+    border: 1px solid white;
+    margin: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links i{
+    display: none;
+  }
+
+  .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .col{
+    width: 34vw;
+    height: 32vh;
+  }
+
+  .special-col{
+    width: 32vw;
+    height: 30vh;
+  }
+
+  .fa{
+    font-size: 20px;
+  }
+
+  .slide-img > .fas{
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin: 0 0.7% 0 0.7%;
+  }
+
+  a{
+    font-size: 10px;
+  }
+
+  h1{
+    font-size: 14px;
+  }
+
+  h3{
+    font-size: 12px;
+  }
+
+  #slider-right{
+    width: 100%;
+    height: 50vh;
+  }
+
+  #left-side{
+    height: 100%;
+    width: 100%;
+  }
+
+  .slide-img{
+    width: 100vw;
+    height: 50vh;
+    background-image: url("img/portfolio-dude.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
