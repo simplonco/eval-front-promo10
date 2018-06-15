@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfefe;
+    font-family: 'Quicksand', sans-serif;
+    color: #fcfefe;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Part 1 */
+
+.part1 {
+    height: 33.3vh;
+    display: flex;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #35bc7a;
+}
+
+.resumeBlock {
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    margin: 0px 10px 0px 0px;
+    border: solid #fcfefe 3px;
+}
+
+.button a {
+    margin: auto;
+    text-decoration: none;
+    outline: none;
+    color: #fcfefe;
+    padding: 15px;
+}
+
+.button a img {
+    width: 20px;
+    height: 20px;
+}
+
+.profil {
+    display: flex;
+    width: 20%;
+    background-color: #ff9e00;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.block img {
+    margin: auto;
+}
+
+/* Part 2 */
+
+.part2 {
+    height: 33.3vh;
+    display: flex;
+}
+
+.exp {
+    display: flex;
+    width: 20%;
+    background-color: #1e8bc4;
+}
+
+.educ {
+    display: flex;
+    width: 20%;
+    background-color: #f15a49;
+}
+
+.blog {
+    display: flex;
+    width: 20%;
+    background-color: #35bc7a;
+}
+
+/* Part 3 */
+
+.part3 {
+    height: 33.3vh;
+    display: flex;
+}
+
+.social {
+    display: flex;
+    width: 20%;
+    background-color: #f86925;
+}
+
+.contact {
+    display: flex;
+    width: 20%;
+    background-color: #1e8bc4;
+}
+
+.portfolio {
+    display: flex;
+    width: 20%;
+    background-color: #f86925;
+}
+
+/* Slider */
