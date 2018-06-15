@@ -1,0 +1,179 @@
+body{
+  color: #F4FFEF;
+  font-family: 'Roboto', sans-serif;
+}
+
+i{
+  font-size: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: #F4FFEF;
+}
+
+.cadre{
+display: flex;
+flex-direction: row;
+}
+
+.cv{
+  background-color: #529df9;
+  height: 100vh;
+  width: 60%;
+  margin: 0;
+  position: relative;
+}
+
+/* LIGNE 1 */
+.l1{
+  display: flex;
+  height: 33%;
+}
+
+.intro{
+  background-color: #0DFFA4;
+  width: calc(100%/3*2);
+  /* padding-left: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+p{
+  font-size: 17px;
+}
+
+.intro a{
+  color: #F4FFEF;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 15px;
+  margin-right: 30px;
+}
+
+.padd{
+  padding-left: 25px;
+}
+
+.boutons{
+  margin-top: 40px;
+}
+
+.fa-download, .fa-info{
+  font-size: 16px;
+}
+
+.profil{
+  background-color: #FF9F42;
+  width: calc(100%/3);
+}
+
+/* LIGNE 2 */
+.l2{
+  display: flex;
+  height: 33%;
+}
+
+.experience{
+  background-color: #529df9;
+  width: calc(100%/3);
+}
+
+.education{
+  background-color: #FF4F39;
+  width: calc(100%/3);
+}
+
+.blog{
+  background-color: #0DFFA4;
+  width: calc(100%/3);
+}
+
+
+/* LIGNE 3 */
+.l3{
+  display: flex;
+  height: 33%;
+}
+
+.social{
+  background-color: #BD6CE8;
+  width: calc(100%/3);
+}
+
+.contact{
+  background-color: #529df9;
+  width: calc(100%/3);
+}
+
+.portfolio{
+  background-color: #BD6CE8;
+  width: calc(100%/3);
+}
+
+/* POUR CHAQUE CASES */
+
+.profil, .experience, .education, .blog, .social, .contact, .portfolio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/* DIV PHOTO DROITE */
+
+.photo{
+  width: 40%;
+  background-image: url("img/man.jpeg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 900px){
+  .cadre{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .cv{
+    background-color: #529df9;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+  }
+
+  .photo{
+    width: 100%;
+    background-image: url("img/man.jpeg");
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ok */
