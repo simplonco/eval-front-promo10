@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icone {
+  color: #fff;
+  font-size: 81px;
+}
+
+.fa-download {
+  margin-right: 10px;
+}
+
+.fa-info-circle {
+  margin-right: 10px;
+}
+
+.log:hover {
+  background-color: #fff;
+  color: #000;
+  transition: .5s;
+}
+
+.log:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+p, h1 {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.typo {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.log {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-right: 30px;
+}
+
+.gauche {
+  display: flex;
+  flex-direction: row;
+}
+
+.droite {
+  display: flex;
+  flex-direction: row;
+  background-image: url("img/1.jpeg");
+  background-size: cover;
+  width: 34%;
+  background-position: center;
+}
+
+.liens {
+  display: flex;
+  align-items: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  width: calc(100%/3*2);
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: calc(100%/3);
+}
+
+.grid-item- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/2);
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/3)
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo>i {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.orange {
+  background-color: #ff9e00;
+}
+
+.vert {
+  background-color: #35bc7a;
+}
+
+.rouge {
+  background-color: #f15a49;
+}
+
+.bleu {
+  background-color: #1e8bc4;
+}
