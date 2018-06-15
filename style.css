@@ -1,0 +1,58 @@
+.green {
+  background: #27ae60;
+  overflow: hidden;
+  color: white; }
+
+.yellow {
+  background: #f1c40f;
+  overflow: hidden;
+  color: white; }
+
+.blue {
+  background: #2980b9;
+  overflow: hidden;
+  color: white; }
+
+.red {
+  background: #e74c3c;
+  overflow: hidden;
+  color: white; }
+
+.orange {
+  background: #e67e22;
+  overflow: hidden;
+  color: white; }
+
+.text-center {
+  padding: 22%;
+  overflow: hidden;
+  color: white; }
+
+.container-all {
+  width: 100%; }
+
+.text {
+  padding: 10%; }
+  .text h5 {
+    margin-top: 25px;
+    font-size: 45px; }
+  .text p {
+    font-size: 20px;
+    text-align: left; }
+  .text .btn {
+    padding: 10px 40px;
+    margin: 30px 20px;
+    text-align: left;
+    font-size: 20px; }
+
+.carousel {
+  height: 100%;
+  width: 100%; }
+
+.two {
+  padding: 0px; }
+
+h5 {
+  margin: 20px 0px; }
+
+/*# sourceMappingURL=style.css.map */
