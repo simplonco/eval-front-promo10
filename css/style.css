@@ -1,0 +1,211 @@
+html, body{
+	margin:0;
+	display: flex;
+}
+body{
+	width: 100%;
+	font-family: arial;
+}
+
+/* ============= RESUME ================== */
+#blockgeneral{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+.row{
+	display: flex;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	color: #000;
+}
+
+/* ------------- FIRST ROW ---------------- */
+.fas{
+	font-size: 40px;
+}
+#first{
+	background-color: #39B97D;
+	width: 66%;
+	height: 33.5vh;
+	color: #fff;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#first p{
+	margin:0;
+}
+#blockButton{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.button{
+	margin-top: 20px;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	text-align: center;
+}
+.button:hover{
+	border: 1px solid #000;
+}
+
+.button .fa{
+	margin-right: 10px;
+}
+#second{
+	background-color: #FF9929;
+	width: 34%;
+}
+
+.case{
+	height: 33.5vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------------- SECOND ROW ---------------- */
+
+#third{
+	background-color:#008DC0 ;
+	width: 34%;
+}
+#four{
+	background-color: #F3584D;
+	width: 34%;
+}
+#five{
+	background-color: #39B97D;
+	width: 34%;
+}
+
+/* ------------- THIRD ROW ---------------- */
+
+#six{
+	background-color: #FB6531;
+	width: 34%;
+}
+
+/* =================== SLIDER ====================== */
+#slider{
+	width: 35%;
+	height: 100vh;
+	overflow: hidden;
+}
+#slider img{
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}
+.circle{
+	border-radius: 50%;
+	border: 1px solid #fff;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	top:50%;
+	margin: 0 10px 0 10px;
+}
+.circle:hover{
+	color: #000;
+	border: 1px solid #000;
+}
+#right{
+	right: 0;
+}
+#dots{
+	display: flex;
+	position: absolute;
+	right: 0;
+	margin:10px 10px 0 0;
+	z-index: 1;
+	width: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+	body{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	#blockgeneral{
+		width: 100%;
+	}
+	.row{
+		display: flex;
+		flex-wrap:wrap;
+		flex-direction: column; 
+		width: 100%;
+	}
+	#first{
+		padding: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	#blockButton{
+		display: flex;
+		flex-direction: column;
+		width: 150px;
+	}
+	#second{
+		width: 100%;
+	}
+	#third{
+		width: 100%;
+	}
+	#four{
+		width: 100%;
+	}
+	#five{
+		width: 100%;
+	}
+	#six{
+		width: 100%;
+	}
+	#slider{
+		width: 100%;
+	}
+	.circle{
+		position: absolute;
+		z-index: 1;
+		margin: 0 10px 0 10px;
+	}
+	.circle:hover{
+		color: #000;
+		border: 1px solid #000;
+	}
+	#dots{
+		display: flex;
+		position: absolute;
+		z-index: 1;
+		display: flex;
+		justify-content: space-between;
+	}
+	#arrow{
+		display: flex;
+		position: absolute;
+		z-index: 1;
+		display: flex;
+		justify-content: space-between;
+	}	
+}

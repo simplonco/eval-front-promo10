@@ -1,0 +1,4 @@
+READ ME EVAL FRONT
+
+- rendu du front à peu près comme le visuel
+- responsive à partir de 900px, il mérite + d'étapes mais j'ai pas eu le temps. 
