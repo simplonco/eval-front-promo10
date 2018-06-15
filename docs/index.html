@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bradley Cooper</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+
+
+  <body>
+
+      <div class="bandeau">
+
+      </div>
+
+  <div class="body">
+      <div class='block-droit'>
+
+
+          <div class="row">
+              <div class="case-long yellow">
+
+                <div class="padding-20px">
+
+                    <h3>BRADLEY COOPER</h3>
+
+                    <p class="sans-marge">I'm a Grahic Designer, Coder & Entrepreneur</p>
+                    <p class="sans-marge">Take a look at my portfolio to see what I was woring.</p>
+
+
+                    <div class='bouton'>
+
+                            <div class="btn">
+                              <i class="fas fa-download"></i>
+                              <p class="little">RESUME</p>
+                            </div>
+
+                            <div class="btn">
+                              <i class="fas fa-info-circle"></i>
+                              <p class="little">CONTACT</p>
+                            </div>
+
+                    </div>
+              </div>
+
+          </div>
+              <div class="case green">
+                  <i class="far fa-address-card fa-3x"></i>
+                  <p>PROFIL</p>
+              </div>
+          </div>
+
+
+          <div class="row">
+                <div class="case green">
+                    <i class="fas fa-battery-half fa-3x"></i>
+                    <p>EXPERIENCE</p>
+                </div>
+                <div class="case orange">
+                    <i class="fas fa-book fa-3x"></i>
+                    <p>EDUCATION</p>
+                </div>
+                <div class="case red">
+                    <i class="far fa-edit fa-3x"></i>
+                    <p>BLOG</p>
+                </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="case red">
+                <i class="fas fa-plus fa-3x"></i>
+                <p>SOCIAL MENU</p>
+            </div>
+
+            <div class="case green">
+                <i class="far fa-paper-plane fa-3x"></i>
+                <p>CONTACT</p>
+            </div>
+
+            <div class="case yellow">
+                <i class="fas fa-desktop fa-3x"></i>
+                <p>PORTFOLIO</p>
+
+            </div>
+          </div>
+      </div>
+
+
+    <div class="block-gauche slideshow-container">
+            <div class="mySlides fade">
+                   <img src="mec.jpeg">
+            </div>
+
+            <div class="mySlides fade">
+                   <img src="skate2.jpeg">
+            </div>
+
+            <div class="mySlides fade">
+                   <img src="garden.jpeg">
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+    </div>
+
+
+</div>
+
+<script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+</script>
+  </body>
+</html>

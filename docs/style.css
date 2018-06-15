@@ -1,0 +1,225 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+  display:flex;
+  height: 100vh;
+  margin:0px;
+}
+
+.bouton{
+  display:flex;
+  flex-direction: row;
+  margin-top:25px;
+}
+
+.btn{
+  border:1px solid white;
+  display:flex;
+  flex-direction: row;
+  padding:15px;
+  margin-right:25px;
+}
+
+h3{
+  font-size:35px;
+  margin-bottom: 20px;
+}
+
+.little{
+  font-size: 20px;
+  height:20px;
+  margin:0px;
+  padding:0 0 0 10px;
+}
+
+
+.block-droit {
+  width:56%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
+
+.size{
+  font-size: 30px;
+}
+
+.row{
+  height:257px;
+  display:flex;
+  flex-direction:row;
+  margin:0px;
+
+}
+.case-long{
+  width:66.66%;
+  padding-top:25px;
+
+}
+.padding-20px{
+  padding-left: 20px;
+
+}
+.case{
+  width:33.33%;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  justify-content: center;
+}
+.green{
+  background-color: green;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: #ff6600;
+}
+
+.icone{
+  font-size: 40px;
+}
+
+p{
+  font-size:20px;
+  margin-top:20px;
+}
+
+.sans-marge{
+  margin-top:0px;
+  font-size:1.3vw;
+}
+.block-gauche{
+  width:44%;
+  height: 100%;
+  overflow: hidden;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.bandeau{
+  display:none;
+}
+/*responsive*/
+
+@media only screen and (max-width: 768px) {
+
+  .body{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .bandeau{
+    display:none;
+    height:200px;
+    background-image: url('mec.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    overflow: hidden;
+    padding-bottom:200px;
+  }
+
+  .block-gauche{
+    order:1;
+    width:100%;
+    height:200px;
+  }
+
+  .slideshow-container{
+    height: 200px;
+    padding-bottom: 100px;
+  }
+
+  .prev, .next{
+    top:17%;
+  }
+
+  .block-droit{
+    width:100%;
+    order:2
+  }
+
+  .sans-marge{
+    margin-top:0px;
+    font-size:3vw;
+  }
+
+
+}
