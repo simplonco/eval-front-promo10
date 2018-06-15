@@ -1,4 +1,10 @@
-## Evaluation Front
+## Execution de l'exercice : 
+1- préparation de l'environnement : fork et clone le repo source
+2- récupération de toutes les images et icônes
+3- création de la grille avec flexbox
+4- pour le responsive, changer l'order des deux parties de la page, faire passer le sens en column et le slider en bandeau supérie
+
+## Sujet - >Evaluation Front
 Vous devez recréer un site statique, on vous demandera de le recréer. Ne vous inquiétez pas, mais l'objectif est de construire quelque chose qui respecte l'intégrité de la conception originale. il est nécessaire de créer ce qui reflètent le choix du "client" en matière de mise en page, d'espacement, de police, d'image et de couleur dans les moindres détails.
 
 Nous ne vous avons pas fourni de fichiers natifs. Vous devrez vous procurer les ressources par vos propres moyens.
