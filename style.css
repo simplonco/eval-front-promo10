@@ -84,11 +84,18 @@ body #introh img {
 /*slider part*/
 body #sliderh {
 	display: flex;
-	overflow: hidden;
+/*	overflow: hidden; */
+	width: 100%;
+	height: 100%;
 }
-body #sliderh img {
-	height: 110%;
-	width: 110%;
+body #slidewrap {
+	height: 100%;
+	width: 400%;
+}
+body #slidewrap img {
+	width: 25%;
+	height: 100%;
+	margin-right: -4px;
 }
 
 
